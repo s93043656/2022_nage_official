@@ -1,0 +1,38 @@
+.download-infobox .tabeventbox{
+    margin-top: 40px;
+}
+.contentdownload{
+    justify-content: center;
+}
+.contentdownload img{
+    margin: 0 10px;
+}
+.wallpaperarea{
+    width: 870px;
+    height: 666px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+.wallpaperbox{
+    display: flex;
+}
+.wallpaperbox:hover img{
+    filter: brightness(0.3);
+    transition: 0.1s linear;
+}
+.dowicon{
+    display: none;
+    position: absolute;
+    top: 35%;
+    left: 37%;
+    z-index: 1;
+    width: 63px;
+    height: 63px;
+    background-image: url('../img/inner/dowicon.png');
+}
+.wallpaperbox:hover .dowicon{
+    display: block;
+}

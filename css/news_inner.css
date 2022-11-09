@@ -1,0 +1,49 @@
+/*------------------------------公告內容-----------------------------------*/
+.new-inner-infobox img{
+    max-width: 100%;
+}
+.titlebox .font-26{
+    color: #ff8e06;
+    margin-bottom: 10px;
+}
+.contentbox{
+    line-height: 2;
+    text-align: left;
+}
+.contentbox a{
+    display: inline-block;
+}
+.contentbox div,.contentbox table{
+    margin: 15px 0;
+}
+.contentbox div.contenti{
+    color:#ff8e06;
+    margin: 40px 0 10px 0px;
+}
+.contenti img{
+    margin-right: 10px;
+}
+.new-inner-infobox tr{
+    text-align: center;
+}
+ol{
+    padding-inline-start: 20px;
+    margin-block-end: 0;
+    margin-block-start: 0;
+}
+.new-inner-infobox .download li{
+    display: flex;
+}
+.contentdownload{
+    display: flex;
+}
+.contentidown{
+    text-align: left;
+    margin-top: 40px;
+    padding-bottom: 10px;
+}
+.contentidown>div{
+    float: right;
+    clear: both;
+}
+/*------------------------------公告內容-----------------------------------*/
